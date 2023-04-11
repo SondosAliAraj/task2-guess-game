@@ -15,16 +15,16 @@ function guessCheck() {
     count++;
 
     if (isNaN(guess)) {
-      alert("invalid input, please enter a number between 500 and 5000");
+      alert("Invalid input, Please enter a number between 500 and 5000.");
     } else if (guess < 500) {
-      alert("Your guess should be between 500 and 5000. Try again.");
+      alert("Your guess should be between 500 and 5000. Try again!");
     } else if (guess < amount) {
-      alert("Your guess is too low. Try again.");
+      alert("Your guess is too low. Try again!");
     } else if (guess > amount) {
-      alert("Your guess is too high. Try again.");
+      alert("Your guess is too high. Try again!");
     } else {
       alert(
-        `Congratulations! You guessed the amount correctly in ${count} attempts!`
+        `Congratulations! You guessed the amount correctly in ${count} attempts.`
       );
       break;
     }
@@ -32,3 +32,5 @@ function guessCheck() {
 }
 
 guessCheck();
+
+// https://sondosaliaraj.github.io/task2-guess-game/
