@@ -16,7 +16,7 @@ function guessCheck() {
 
     if (isNaN(guess)) {
       alert("Invalid input, Please enter a number between 500 and 5000.");
-    } else if (guess < 500) {
+    } else if (500 > guess > 5000) {
       alert("Your guess should be between 500 and 5000. Try again!");
     } else if (guess < amount) {
       alert("Your guess is too low. Try again!");
